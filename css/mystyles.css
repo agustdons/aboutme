@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 5em;
+}
+
+.hotpink{
+    background-color: #ffaebc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.hotpink a{
+    text-decoration: none;
+}
+
+.hotpink h2, p{
+    padding-top: 1em;
+}
+
+.tiffanyBlue{
+    background-color: #a0e7e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    flex-direction: column;
+
+}
+
+.mint{
+    background-color: #b4f8c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    flex-direction: column;
+}
+
+
+.yellow{
+    background-color: #fbe7c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    flex-direction: column;
+
+}
+
+
+.anotherColor{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    flex-direction: column;
+}
+
+.cvphoto{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+}
+
+.icons{
+    text-align: center;
+    letter-spacing: 1em;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #ffaebc;
+}
+
+.icons a:hover{
+    color: #000;
+}
+
+
+/* FLECHA */
+
+.arrow{
+    animation: bajar-subir 1s ease infinite;
+}
+
+@keyframes bajar-subir{
+    0% {transform: translateY(20px);}
+    25% {transform: translateY(0px);}
+    100% {transform: translateY(20px);}
+}
+
+.up{
+    text-decoration: none;
+    color: #000;
+}
